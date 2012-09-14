@@ -1,0 +1,45 @@
+{
+  "name": "fowler",
+  "description": "search + clone from github from the CLI",
+  "version": "0.1.0",
+  "homepage": "https://github.com/karlwestin/fowler",
+  "author": {
+    "name": "Karl Westin",
+    "email": "karl.westin@gmail.com",
+    "url": "http://karlwestin.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/karlwestin/fowler.git"
+  },
+  "bugs": {
+    "url": "https://github.com/karlwestin/fowler/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/karlwestin/fowler/blob/master/LICENSE-MIT"
+    }
+  ],
+  "main": "lib/fowler",
+  "engines": {
+    "node": "0.8"
+  },
+  "scripts": {
+    "test": "grunt test"
+  },
+  "dependencies": {
+    "request": ">=2.11.1",
+    "underscore": ">=1.3.1",
+    "prompt": "0.2.7",
+    "q": ">=0.0.8"
+  },
+  "devDependencies": {
+    "grunt": "~0.3.15"
+  },
+  "keywords": [],
+  "preferGlobal": "true",
+  "bin": {
+    "fowler": "lib/fowler.js"
+  }
+}
